@@ -3,7 +3,7 @@ return {
   {
     "linux-cultist/venv-selector.nvim",
     cmd = "VenvSelect",
-    ft = "python",
+    ft = { "python" },
     keys = {
       -- { "<localleader>pv", function() venv.retrieve_from_cache() end, desc = "Python last VirtualEnv" },
       { "<localleader>pv", "<cmd>VenvSelectCached<cr>", desc = "Python Last VirtualEnv" },

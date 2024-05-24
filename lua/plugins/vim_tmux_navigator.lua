@@ -1,6 +1,7 @@
 return {
   -- Seamless navigation between tmux panes and vim splits
   "christoomey/vim-tmux-navigator",
+  enabled = false,
   lazy = false,
   keys = {
     -- stylua:ignore

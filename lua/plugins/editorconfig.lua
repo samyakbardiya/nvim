@@ -1,4 +1,4 @@
 return {
-  -- EditorConfig plugin for Vim
-  "editorconfig/editorconfig-vim",
+    -- EditorConfig plugin for Vim
+    "editorconfig/editorconfig-vim",
 }

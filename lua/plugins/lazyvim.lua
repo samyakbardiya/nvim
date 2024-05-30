@@ -1,12 +1,12 @@
 return {
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "catppuccin",
-      news = {
-        lazyvim = true,
-        neovim = true,
-      },
+    {
+        "LazyVim/LazyVim",
+        opts = {
+            colorscheme = "catppuccin",
+            news = {
+                lazyvim = true,
+                neovim = true,
+            },
+        },
     },
-  },
 }

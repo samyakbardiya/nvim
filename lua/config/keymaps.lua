@@ -21,8 +21,8 @@
 
 vim.keymap.set("n", "<leader>\\", "<C-W>v", { desc = "Split Window Right", remap = true })
 
-vim.keymap.set("n", "<leader>qr", "<cmd>source %<cr>", { desc = "Reload current file" })
-vim.keymap.set("n", "<leader>qR", "<cmd>source $XDG_CONFIG_HOME/nvim/init.lua<cr>", { desc = "Reload Neovim config" })
+vim.keymap.set("n", "<leader>Qr", "<cmd>source %<cr>", { desc = "Reload current file" })
+vim.keymap.set("n", "<leader>QR", "<cmd>source $XDG_CONFIG_HOME/nvim/init.lua<cr>", { desc = "Reload Neovim config" })
 
 -- local java_snippets = {
 --   ["logfac"] = {

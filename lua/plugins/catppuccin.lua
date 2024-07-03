@@ -4,10 +4,12 @@ return {
     lazy = true,
     name = "catppuccin",
     opts = {
-        dim_inactive = {
-            enabled = true,
-            percentage = 0.15,
-        },
+        transparent_background = true,
+        show_end_of_buffer = true,
+        -- dim_inactive = {
+        --     enabled = true,
+        --     percentage = 0.15,
+        -- },
         styles = {
             comments = {},
             conditionals = {},

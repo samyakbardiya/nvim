@@ -3,11 +3,14 @@ return {
     "folke/which-key.nvim",
     opts = {
         defaults = {
+            ["<leader>Q"] = { name = "+reload" },
             ["<localLeader>c"] = { name = "+leetcode" },
             ["<localLeader>d"] = { name = "+dart" },
-            ["<localLeader>h"] = { name = "+hledger" },
-            ["<localLeader>t"] = { name = "+vimtex" }, -- NOTE: Moved from <localLeader>l
+            ["<localLeader>h"] = { name = "+ledger" },
+            ["<localLeader>l"] = { name = "+latex" },
             ["<localLeader>p"] = { name = "+python" },
+            ["<localLeader>s"] = { name = "+silicon" },
+            ["<localLeader>t"] = { name = "+tex" },
         },
     },
 }

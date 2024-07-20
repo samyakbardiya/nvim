@@ -5,7 +5,10 @@ return {
         lazy = false,
         ft = { "ledger" },
         config = function()
-            vim.g.ledger_align_at = 50
+            vim.g.ledger_bin = "hledger"
+            vim.g.ledger_is_hledger = true
+            vim.g.is_hledger = true
+            vim.g.ledger_align_at = 52
         end,
         keys = {
             { "<localLeader>ha", "vip:LedgerAlign<CR>", silent = true, desc = "Align current transaction" },
@@ -24,24 +27,17 @@ return {
                 silent = true,
                 desc = "Check transactions",
             },
-            { "<localLeader>hF", ":LeaderAlignBuffer<CR>", desc = "Align whole File" },
+            { "<localLeader>hF", ":LedgerAlignBuffer<CR>", desc = "Align whole File" },
         },
     },
-    -- For writing hledger journal
     {
+        -- For writing hledger journal
         "anekos/hledger-vim",
         ft = { "ledger" },
     },
-    -- nvim-cmp source for ledger accounts
     {
-        "piero-vic/cmp-ledger",
+        -- nvim-cmp source for hledger accounts.
+        "kirasok/cmp-hledger",
         ft = { "ledger" },
-        config = function()
-            require("cmp").setup({
-                sources = {
-                    { name = "ledger" },
-                },
-            })
-        end,
     },
 }

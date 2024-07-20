@@ -10,7 +10,21 @@ vim.opt.number = true
 vim.opt.relativenumber = false
 -- vim.opt.scrolloff = 10
 
-vim.g.python_host_prog = "/home/samyak/.local/share/pyenv/versions/neovim2/bin/python"
-vim.g.python3_host_prog = "/home/samyak/.local/share/pyenv/versions/neovim3/bin/python"
-
+vim.g.python3_host_prog = os.getenv("HOME") .. "/.local/share/pyenv/versions/py3nvim/bin/python3"
 vim.g.lazyvim_python_lsp = "basedpyright"
+
+-- Neovide options
+if vim.g.neovide then
+    vim.o.guifont = "InputMono Nerd Font:h16"
+    vim.opt.linespace = 0
+
+    -- -- Helper function for transparency formatting
+    -- local alpha = function()
+    --     return string.format("%x", math.floor(255 * vim.g.transparency or 0.8))
+    -- end
+    -- -- g:neovide_transparency should be 0 if you want to unify transparency of content and title bar.
+    -- vim.g.neovide_transparency = 0.0
+    -- vim.g.transparency = 0.8
+    -- vim.g.neovide_background_color = "#0f1117" .. alpha()
+    -- vim.g.neovide_window_blurred = true
+end

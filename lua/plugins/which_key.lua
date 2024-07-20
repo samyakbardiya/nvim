@@ -2,7 +2,7 @@ return {
     -- Create key bindings that stick.
     "folke/which-key.nvim",
     opts = {
-        defaults = {
+        specs = {
             ["<leader>Q"] = { name = "+reload" },
             ["<localLeader>c"] = { name = "+leetcode" },
             ["<localLeader>d"] = { name = "+dart" },

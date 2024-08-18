@@ -10,6 +10,8 @@ vim.opt.number = true
 vim.opt.relativenumber = false
 -- vim.opt.scrolloff = 10
 
+vim.opt.tabstop = 4
+
 vim.g.python3_host_prog = os.getenv("HOME") .. "/.local/share/pyenv/versions/py3nvim/bin/python3"
 vim.g.lazyvim_python_lsp = "basedpyright"
 

@@ -1,6 +1,11 @@
 return {
-    -- Vim plugin for Ledger
     {
+        -- For writing hledger journal
+        "anekos/hledger-vim",
+        ft = { "ledger" },
+    },
+    {
+        -- Vim plugin for Ledger
         "ledger/vim-ledger",
         lazy = false,
         ft = { "ledger" },
@@ -31,13 +36,13 @@ return {
         },
     },
     {
-        -- For writing hledger journal
-        "anekos/hledger-vim",
-        ft = { "ledger" },
-    },
-    {
         -- nvim-cmp source for hledger accounts.
         "kirasok/cmp-hledger",
         ft = { "ledger" },
     },
+    -- {
+    --     -- nvim-cmp source for ledger accounts
+    --     "piero-vic/cmp-ledger",
+    --     ft = { "ledger" },
+    -- },
 }

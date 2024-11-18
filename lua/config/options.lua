@@ -8,12 +8,14 @@ vim.g.maplocalleader = "-"
 vim.opt.cursorcolumn = true
 vim.opt.number = true
 vim.opt.relativenumber = false
+vim.opt.splitright = false
+vim.opt.splitbelow = false
 -- vim.opt.scrolloff = 10
 
 vim.opt.tabstop = 4
 
 vim.g.python3_host_prog = os.getenv("HOME") .. "/.local/share/pyenv/versions/py3nvim/bin/python3"
-vim.g.lazyvim_python_lsp = "basedpyright"
+-- vim.g.lazyvim_python_lsp = "basedpyright"
 
 -- Neovide options
 if vim.g.neovide then
@@ -30,3 +32,6 @@ if vim.g.neovide then
     -- vim.g.neovide_background_color = "#0f1117" .. alpha()
     -- vim.g.neovide_window_blurred = true
 end
+
+-- -- Disable Copilot by default :)
+-- vim.cmd("Copilot disable")

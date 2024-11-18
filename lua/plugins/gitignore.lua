@@ -6,9 +6,9 @@ return {
     end,
     keys = {
         {
-            "<leader>gi",
+            "<leader>g.",
             function()
-                require("gitignore").generate()
+                require("gitignore").generate({})
             end,
             desc = "Generate .gitignore file",
         },

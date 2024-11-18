@@ -5,6 +5,7 @@ return {
         colorcolumn = "80",
         custom_colorcolumn = {
             java = "120",
+            python = "100",
         },
         disabled_filetypes = {
             "NvimTree",

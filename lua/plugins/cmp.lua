@@ -17,6 +17,7 @@ return {
                 -- ["<C-a>"] = LazyVim.cmp.confirm(),
             })
 
+            table.insert(opts.sources, 1, { name = "supermaven", group_index = 1, priority = 100 })
             table.insert(opts.sources, { name = "hledger" })
             table.insert(opts.sources, { name = "natdat" })
         end,

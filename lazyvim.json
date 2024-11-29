@@ -36,7 +36,6 @@
     "lazyvim.plugins.extras.test.core",
     "lazyvim.plugins.extras.ui.treesitter-context",
     "lazyvim.plugins.extras.util.dot",
-    "lazyvim.plugins.extras.util.gitui",
     "lazyvim.plugins.extras.util.mini-hipatterns",
     "lazyvim.plugins.extras.util.octo",
     "lazyvim.plugins.extras.util.project",
@@ -45,8 +44,8 @@
     "lazyvim.plugins.extras.vscode"
   ],
   "news": {
-    "NEWS.md": "7107",
-    "doc/news.txt": "24450"
+    "NEWS.md": "7429",
+    "doc/news.txt": "12485"
   },
   "version": 7
 }

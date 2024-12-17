@@ -1,3 +1,4 @@
+-- A collection of small QoL plugins for Neovim
 return {
     "folke/snacks.nvim",
     opts = {

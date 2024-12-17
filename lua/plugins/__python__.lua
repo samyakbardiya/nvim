@@ -1,4 +1,5 @@
 return {
+
     -- Allows selection of python virtual environment from within neovim
     {
         "linux-cultist/venv-selector.nvim",

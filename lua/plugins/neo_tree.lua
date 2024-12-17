@@ -1,3 +1,4 @@
+-- Neovim plugin to manage the file system and other tree like structures.
 return {
     "nvim-neo-tree/neo-tree.nvim",
     dependencies = {

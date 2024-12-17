@@ -1,3 +1,4 @@
+-- Smoothly navigate between neovim and terminal multiplexer(s)
 return {
     "numToStr/Navigator.nvim",
     config = true,

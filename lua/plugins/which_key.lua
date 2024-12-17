@@ -1,5 +1,5 @@
+-- Create key bindings that stick.
 return {
-    -- Create key bindings that stick.
     "folke/which-key.nvim",
     opts = {
         specs = {

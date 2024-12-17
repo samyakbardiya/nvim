@@ -1,4 +1,6 @@
 return {
+
+    -- VimTeX: A modern Vim and neovim filetype plugin for LaTeX files.
     {
         "lervag/vimtex",
         lazy = false, -- lazy-loading will disable inverse search

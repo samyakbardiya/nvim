@@ -1,7 +1,6 @@
--- Library of 35+ independent Lua modules improving overall Neovim (version
--- 0.7 and higher) experience with minimal effort
-
+-- Library of 35+ independent Lua modules improving overall Neovim experience with minimal effort
 return {
+
     -- MAP: Window with buffer text overview, scrollbar, and highlights
     {
         "echasnovski/mini.map",

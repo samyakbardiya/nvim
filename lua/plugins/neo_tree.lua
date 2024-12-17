@@ -8,12 +8,17 @@ return {
         -- "3rd/image.nvim", -- Optional image support in preview window: See `# Preview Mode` for more information
     },
     opts = {
-        -- popup_border_style = "NC",
-        -- filesystem = {
-        --     bind_to_cwd = true, -- TODO: Check me
-        --     follow_current_file = { enabled = true },
-        --     group_empty_dirs = true,
-        -- },
+        filesystem = {
+            -- bind_to_cwd = true,
+            filtered_items = {
+                hide_dotfiles = false,
+                always_show_by_pattern = {
+                    ".env*",
+                },
+            },
+            follow_current_file = { enabled = true },
+            use_libuv_file_watcher = true,
+        },
         window = {
             position = "right",
         },

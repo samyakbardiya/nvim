@@ -24,6 +24,8 @@ vim.keymap.set("n", "<leader>\\", "<C-W>v", { desc = "Split Window Right", remap
 vim.keymap.set("n", "<leader>Qr", "<cmd>source %<cr>", { desc = "Reload current file" })
 vim.keymap.set("n", "<leader>QR", "<cmd>source $XDG_CONFIG_HOME/nvim/init.lua<cr>", { desc = "Reload Neovim config" })
 
+vim.keymap.set("n", "<leader><CR>", LazyVim.pick("files", { root = false, desc = "Find Files (cwd)" }))
+
 -- local java_snippets = {
 --   ["logfac"] = {
 --     prefix = "logfac",

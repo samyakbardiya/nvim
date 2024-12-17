@@ -1,6 +1,5 @@
 return {
     "nvim-neo-tree/neo-tree.nvim",
-    branch = "v3.x",
     dependencies = {
         "nvim-lua/plenary.nvim",
         "nvim-tree/nvim-web-devicons", -- not strictly required, but recommended
@@ -9,11 +8,11 @@ return {
     },
     opts = {
         -- popup_border_style = "NC",
-        filesystem = {
-            bind_to_cwd = true,
-            follow_current_file = { enabled = true },
-            group_empty_dirs = true,
-        },
+        -- filesystem = {
+        --     bind_to_cwd = true, -- TODO: Check me
+        --     follow_current_file = { enabled = true },
+        --     group_empty_dirs = true,
+        -- },
         window = {
             position = "right",
         },

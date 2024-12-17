@@ -2,6 +2,8 @@ return {
     "tpope/vim-fugitive",
     lazy = false,
     config = function() end,
+    -- TODO: Set Keymap
+    --
     -- keys = {
     --   { "<leader>gC", ":Git commit<CR>", desc = "Fugitive Commit" },
     -- },

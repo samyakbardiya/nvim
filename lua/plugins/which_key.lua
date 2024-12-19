@@ -2,6 +2,7 @@
 return {
     "folke/which-key.nvim",
     opts = {
+        -- preset = "classic",
         specs = {
             ["<leader>Q"] = { name = "+reload" },
             ["<localLeader>c"] = { name = "+leetcode" },

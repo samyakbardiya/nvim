@@ -4,7 +4,7 @@ return {
     lazy = true,
     name = "catppuccin",
     opts = {
-        transparent_background = true,
+        transparent_background = false,
         show_end_of_buffer = true,
         -- dim_inactive = {
         --     enabled = true,

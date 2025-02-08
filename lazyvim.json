@@ -45,9 +45,10 @@
     "lazyvim.plugins.extras.util.startuptime",
     "lazyvim.plugins.extras.vscode"
   ],
+  "install_version": 7,
   "news": {
     "NEWS.md": "10960",
     "doc/news.txt": "10722"
   },
-  "version": 7
+  "version": 8
 }

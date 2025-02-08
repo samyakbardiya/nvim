@@ -5,7 +5,7 @@
 vim.g.mapleader = " "
 vim.g.maplocalleader = "-"
 
-vim.opt.cursorcolumn = true
+-- vim.opt.cursorcolumn = true
 vim.opt.number = true
 vim.opt.relativenumber = false
 vim.opt.splitright = false
